@@ -1,0 +1,53 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.test
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Build artifacts
+dist/
+build/
+tmp/
+temp/
+
+# Optional npm cache directory
+.npm/
+
+# TypeScript
+*.tsbuildinfo
+
+# Docker
+*.container
+*.local
+
+# Test output
+test-output/
