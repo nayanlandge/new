@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:3000/students/',
+  baseURL: 'https://new-api-peach-beta.vercel.app/students/',
 });
 
 export const getAllStudents = () => API.get('/');
